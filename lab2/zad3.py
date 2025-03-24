@@ -38,8 +38,8 @@ plot_iris(df_zscore, 'Zeskalowane dane (Z-Score)')
 print("Statystyki dla oryginalnych danych:")
 print(df_selected.describe())
 
-print("\nStatystyki dla znormalizowanych danych (Min-Max):")
+print("Statystyki dla znormalizowanych danych (Min-Max):")
 print(df_minmax.describe())
 
-print("\nStatystyki dla zeskalowanych danych (Z-Score):")
+print("Statystyki dla zeskalowanych danych (Z-Score):")
 print(df_zscore.describe())
