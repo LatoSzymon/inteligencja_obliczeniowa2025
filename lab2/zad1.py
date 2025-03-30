@@ -19,7 +19,7 @@ print(df.describe(include='all'))
 for k in df.select_dtypes(include=['float64', 'int64']).columns:
     srednia = df[k].mean()
     for i in range(len(df[k])):
-        if df[k].iloc[i] < 0 or df[k].iloc[i] > 15:
+        if df[k].iloc[i] <= 0 or df[k].iloc[i] > 15:
             df[k].iloc[i] = srednia
 
 rasy_panow = ["Setosa", "Versicolor", "Virginica"]

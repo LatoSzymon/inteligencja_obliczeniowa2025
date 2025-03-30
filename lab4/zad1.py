@@ -20,4 +20,4 @@ dane = [
 
 for wiek, waga, wzrost in dane:
     wynik = forwardPass(wiek, waga, wzrost)
-    print(f"Wiek: {wiek}, Waga: {waga}, Wzrost: {wzrost} -> Wynik: {wynik:.5f}")
+    print(f"Wiek: {wiek}, Waga: {waga}, Wzrost: {wzrost} -> Wynik: {wynik}")

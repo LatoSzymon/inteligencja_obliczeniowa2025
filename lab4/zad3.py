@@ -4,7 +4,7 @@ from sklearn.neural_network import MLPClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix
 
 
-pączuszki = uwu.read_csv(r"C:\Users\Szymon\repo\inteligencja_obliczeniowa2025\lab4\diabetes_1.csv")
+pączuszki = uwu.read_csv(r"C:\Users\szymo\repozytoria\int2025\inteligencja_obliczeniowa2025\lab4\diabetes_1.csv")
 
 pączuszki['class'] = pączuszki['class'].map({'tested_positive': 1, 'tested_negative': 0})
 
@@ -45,6 +45,100 @@ print(macierzynstwo2)
 #W przypadku cukrzyków (jak np. Scott Malkinson) FN jest gorszy, bo osoba z cukrzyca mogła być zdiagnozowana jako zdrowa
 #mlep - więcej FP
 #mlep2 - więcej FN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

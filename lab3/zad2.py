@@ -12,7 +12,6 @@ print(irysy.values)
 x = uwu.DataFrame(irysy.data, columns=irysy.feature_names)
 y = uwu.Series(irysy.target, name='FlowerType')
 
-# Podział danych na zbiór treningowy i testowy w proporcjach 70%/30%
 trenujemy_x, test_x, trenujemy_y, test_y = train_test_split(x, y, test_size=0.3, random_state=292572)
 
 print("ZBIÓR TRENINGOWY X:")

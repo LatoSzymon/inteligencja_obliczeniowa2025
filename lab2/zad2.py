@@ -20,6 +20,7 @@ print("skumulowana wariancja", skumulowana_wariancja)
 
 komponenty_n_95 = numpy.argmax(skumulowana_wariancja >= 0.95) + 1
 print("komponenty_n_95", komponenty_n_95)
+#!!
 
 pca_iris = PCA(n_components=2).fit(iris.data)
 xD2 = pca_iris.transform(iris.data)
