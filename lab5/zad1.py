@@ -15,7 +15,7 @@ y = iris.target
 scaler = StandardScaler() 
 X_scaled = scaler.fit_transform(X) 
 
-encoder = OneHotEncoder(sparse_output=False) 
+encoder = OneHotEncoder(sparse_output==False) 
 y_encoded = encoder.fit_transform(y.reshape(-1, 1)) 
 
 X_train, X_test, y_train, y_test = train_test_split(X_scaled, y_encoded, test_size=0.3, 
